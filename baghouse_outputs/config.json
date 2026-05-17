@@ -1,0 +1,31 @@
+{
+  "SEQ_LEN": 60,
+  "STEP": 3,
+  "PRE_TEAR_WINDOW": 66,
+  "SEQ_FEATURES": [
+    "dp",
+    "pm",
+    "dp_slope",
+    "dp_variance",
+    "pm_spike_flag",
+    "dp_rolling_mean",
+    "dp_var_delta",
+    "dp_slope_delta",
+    "pm_roll_max",
+    "dp_deviation",
+    "dp_accel",
+    "instability",
+    "pm_zscore"
+  ],
+  "N_TAB_FEATURES": 24,
+  "NUM_CLASSES": 4,
+  "CLASSES": [
+    "Clogging",
+    "Normal",
+    "Pre_Tear",
+    "Tearing"
+  ],
+  "ALPHA": 0.6,
+  "TEST_ACCURACY_HYBRID": 0.9528,
+  "TEST_F1_HYBRID": 0.9551
+}
